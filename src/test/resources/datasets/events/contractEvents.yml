@@ -1,0 +1,100 @@
+properties:
+ - key: jwt.key
+   value: lfvZAX/d3hIGXtUv7pjDxw==
+ - key: jwt.ttl.auth
+   value: 900
+ - key: jwt.ttl.resetpassword
+   value: 3600
+ - key: jwt.ttl.verifymail
+   value: 86400   
+ - key: mail.subject.verification
+   value: Verify Registration
+ - key: mail.sender.verification
+   value: no-reply@paylax.de
+ - key: mail.subject.resetpassword
+   value: Reset Password
+ - key: mail.sender.resetpassword
+   value: no-reply@paylax.de
+ - key: mail.subject.invitationtopayer
+   value: Sie wurden als Käufer eingeladen
+ - key: mail.sender.invitationtopayer
+   value: no-reply@paylax.de
+ - key: url.base.webapplication
+   value: http://webapp.paylax.dev
+ - key: url.path.reducedcontractlink
+   value: /{contractCode}/reduced
+ - key: url.path.resetpassword
+   value: /process-token/reset-pw/{token}
+ - key: url.path.verificationlink
+   value: /process-token/verify-mail/{token}
+ - key: scheduler.demo.createtransactions.interval
+   value: 10  
+ - key: commission.paylax.min
+   value: 2.5  
+ - key: commission.paylax.percentage
+   value: 0.5   
+users:
+-  id: 1
+   userName: payeeUserName
+   email: payee@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: true 
+   needsidentification: false 
+   pin: 1234
+-  id: 2
+   userName: payerUserName
+   email: mailpiyush10@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: true 
+   needsidentification: false 
+   pin: 1234
+-  id: 3
+   email: nonregistered@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: false 
+   needsidentification: false 
+   pin: 0
+-  id: 4
+   userName: userName1
+   email: user1@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: true 
+   needsidentification: false 
+   pin: 1234
+-  id: 5
+   userName: userName2
+   email: user2@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: true 
+   needsidentification: false 
+   pin: 1234
+-  id: 6
+   userName: userName3
+   email: user3@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: true 
+   needsidentification: false 
+   pin: 1234
+contracts: 
+
+transactions: 
+
+contract_events: 

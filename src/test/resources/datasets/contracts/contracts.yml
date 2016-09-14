@@ -1,0 +1,238 @@
+properties:
+ - key: jwt.key
+   value: lfvZAX/d3hIGXtUv7pjDxw==
+ - key: jwt.ttl.auth
+   value: 900
+ - key: jwt.ttl.resetpassword
+   value: 3600
+ - key: jwt.ttl.verifymail
+   value: 86400   
+ - key: mail.subject.verification
+   value: Verify Registration
+ - key: mail.sender.verification
+   value: no-reply@paylax.de
+ - key: mail.subject.resetpassword
+   value: Reset Password
+ - key: mail.sender.resetpassword
+   value: no-reply@paylax.de
+ - key: mail.subject.invitationtopayer
+   value: Sie wurden als Käufer eingeladen
+ - key: mail.sender.invitationtopayer
+   value: no-reply@paylax.de
+ - key: url.base.webapplication
+   value: http://webapp.paylax.dev
+ - key: url.path.reducedcontractlink
+   value: /{contractCode}/reduced
+ - key: url.path.resetpassword
+   value: /process-token/reset-pw/{token}
+ - key: url.path.verificationlink
+   value: /process-token/verify-mail/{token}
+ - key: scheduler.demo.createtransactions.interval
+   value: 10  
+ - key: commission.paylax.min
+   value: 2.5  
+ - key: commission.paylax.percentage
+   value: 0.5    
+users:
+-  id: 1
+   userName: payeeUserName
+   email: payee@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: true 
+   needsidentification: false 
+   pin: 1234
+-  id: 2
+   userName: payerUserName
+   email: payer@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: true 
+   needsidentification: false 
+   pin: 1234
+-  id: 3
+   email: nonregistered@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: false 
+   needsidentification: false 
+   pin: 0
+contracts:
+-  id: 2
+   contractCode: "0816QMCG"
+   title: "Macbook"
+   description: "MacBook"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: PENDING
+   payee_id: 1
+   payer_id: 2
+-  id: 3 
+   contractCode: "0816QMCC"
+   title: "MS surface"
+   description: "MS surface"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: PENDING
+   payee_id: 1
+   payer_id: 2
+-  id: 4
+   contractCode: "0816QMCA"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: PENDING
+   payee_id: 1
+   payer_id: 2
+-  id: 5
+   contractCode: "0816QMCB"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: FINISHED
+   payee_id: 1
+-  id: 6 
+   contractCode: "0816QMCD"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: PENDING
+   payee_id: 1
+-  id: 7
+   contractCode: "0816QMPH"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: PAID
+   payee_id: 1
+   payer_id: 2
+-  id: 8
+   contractCode: "0816QPPQ"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: STARTED
+   payee_id: 1
+   payer_id: 2
+-  id: 9
+   contractCode: "0816PPPP"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: STARTED
+   payee_id: 1
+   payer_id: 2
+-  id: 10
+   contractCode: "0816PPLL"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: PROBLEM_REPORTED
+   payee_id: 1
+   payer_id: 2   
+-  id: 11
+   contractCode: "0816QQPP"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: PAID
+   payee_id: 1
+   payer_id: 2
+-  id: 12
+   contractCode: "0816KKKP"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: STARTED
+   payee_id: 1
+   payer_id: 2
+-  id: 13
+   contractCode: "0816WWWP"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: PROBLEM_REPORTED
+   payee_id: 1
+   payer_id: 2 
+-  id: 14
+   contractCode: "0816HHHE"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 725.25
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: FINISHED
+   payee_id: 1
+   payer_id: 2        
+-  id: 15
+   contractCode: "0816JJJP"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: false
+   status: PAID
+   payee_id: 1 
+-  id: 16
+   contractCode: "0816JJJL"
+   title: "iPhone 6"
+   description: "iPhone 6"
+   amount: 800
+   newamount: 0
+   imageLink: "http://paylax.de/"
+   showOnMarketplace: true
+   status: PENDING
+   payee_id: 1    
+transactions: 
+-  id: 1
+   contract_id: 7
+   amount: 800
+   status: CREATED
+-  id: 2
+   contract_id: 9
+   amount: 800
+   status: CREATED
+   
+contract_events: 

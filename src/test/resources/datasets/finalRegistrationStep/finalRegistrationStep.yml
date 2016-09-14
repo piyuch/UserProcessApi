@@ -1,0 +1,72 @@
+users:
+-  id: 1
+   email: isregistered@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: false 
+   needsidentification: false 
+   pin: 0
+
+-  id: 2 
+   email: minor@paynrelax.de
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true 
+   isregistered: false 
+   needsidentification: false
+   pin: 1234  
+
+-  id: 3
+   dateofbirth: 1984-01-01  
+   email: wrongsex@gmail.com
+   password: $2a$10$S2pIxS6IfWtxp7raRdoCpOm5f0HYuuY1JrLG8DKh8lj5l90gZ7oXe 
+   isdeactivated: false 
+   isidentified: false
+   ismailverified: true
+   isregistered: false 
+   needsidentification: false 
+   pin: 1234   
+   sex: WRONG_SEX
+   
+user_addresses:
+
+
+properties:
+ - key: jwt.key
+   value: lfvZAX/d3hIGXtUv7pjDxw==
+ - key: jwt.ttl.auth
+   value: 900
+ - key: jwt.ttl.resetpassword
+   value: 3600
+ - key: jwt.ttl.verifymail
+   value: 86400   
+ - key: mail.subject.verification
+   value: Verify Registration
+ - key: mail.sender.verification
+   value: no-reply@paylax.de
+ - key: mail.subject.resetpassword
+   value: Reset Password
+ - key: mail.sender.resetpassword
+   value: no-reply@paylax.de
+ - key: mail.subject.invitationtopayer
+   value: Sie wurden als Käufer eingeladen
+ - key: mail.sender.invitationtopayer
+   value: no-reply@paylax.de
+ - key: url.base.webapplication
+   value: http://webapp.paylax.dev
+ - key: url.path.reducedcontractlink
+   value: /{contractCode}/reduced
+ - key: url.path.resetpassword
+   value: /process-token/reset-pw/{token}
+ - key: url.path.verificationlink
+   value: /process-token/verify-mail/{token}
+ - key: scheduler.demo.createtransactions.interval
+   value: 10  
+
+
+
+   
+   
