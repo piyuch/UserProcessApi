@@ -5,7 +5,7 @@ import de.user.exception.BusinessException;
 /**
  * Exception used when the user email is not verified yet
  * 
- * @author hazem
+ * @author piyush
  *
  */
 public class UserMailNotVerifiedYetException extends BusinessException {

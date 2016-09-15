@@ -5,7 +5,7 @@ import de.user.exception.BusinessException;
 /**
  * Exception used when the user sex is wrong
  * 
- * @author hazem
+ * @author piyush
  *
  */
 public class WrongUserSexException extends BusinessException {

@@ -10,7 +10,7 @@ import de.user.model.UserEntity;
 /**
  * Control to access the Address object
  * 
- * @author hazem
+ * @author piyush chand
  *
  */
 public class UserAddressControl extends BasicCrudControl {

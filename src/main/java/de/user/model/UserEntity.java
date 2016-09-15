@@ -21,7 +21,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * Registered user for paylax
  * 
- * @author hazem
+ * @author piyush
  *
  */
 @XmlRootElement

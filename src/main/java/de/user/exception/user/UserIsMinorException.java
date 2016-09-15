@@ -6,7 +6,7 @@ import de.user.exception.BusinessException;
  * 
  * Exception used when a WhitelabelUser age is under 18
  * 
- * @author hazem
+ * @author piyush
  *
  */
 public class UserIsMinorException extends BusinessException {

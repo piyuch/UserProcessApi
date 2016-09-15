@@ -20,7 +20,7 @@ import de.user.test.InContainerTest;
 /**
  * This class tests the UserControl
  * 
- * @author hazem and piyush
+ * @author piyush
  *
  */
 

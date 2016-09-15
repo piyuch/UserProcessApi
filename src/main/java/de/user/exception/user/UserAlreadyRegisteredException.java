@@ -5,7 +5,7 @@ import de.user.exception.BusinessException;
 /**
  * Exception used when the user is already registered
  * 
- * @author hazem
+ * @author piyush
  *
  */
 public class UserAlreadyRegisteredException extends BusinessException {

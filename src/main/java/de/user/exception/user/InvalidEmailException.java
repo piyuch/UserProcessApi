@@ -5,7 +5,7 @@ import de.user.exception.BusinessException;
 /**
  * Exception used when the email is invalid
  * 
- * @author hazem
+ * @author piyush chand
  *
  */
 public class InvalidEmailException extends BusinessException {

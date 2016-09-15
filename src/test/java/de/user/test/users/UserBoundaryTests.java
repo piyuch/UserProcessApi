@@ -29,7 +29,7 @@ import de.user.test.InContainerTest;
 /**
  * This class tests the User Boundary
  * 
- * @author hazem and piyush
+ * @author piyush
  *
  */
 

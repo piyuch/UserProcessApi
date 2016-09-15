@@ -13,7 +13,7 @@ import de.user.model.PropertyEntity;
 /**
  * Control to access the properties.
  * 
- * @author nicolai.mainiero
+ * @author piyush chand
  *
  */
 @Stateless

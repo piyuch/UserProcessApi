@@ -6,7 +6,7 @@ import de.user.common.Validator;
 /**
  * UserAddress API request object
  * 
- * @author hazem
+ * @author piyush chand
  *
  */
 public class UserAddressRequest extends BasicDataObject {

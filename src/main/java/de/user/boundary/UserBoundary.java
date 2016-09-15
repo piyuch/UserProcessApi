@@ -49,7 +49,7 @@ import io.jsonwebtoken.SignatureException;
 /**
  * This Class provides the business logic functionalities of paylax users
  * 
- * @author hazem
+ * @author piyush chand
  *
  */
 @Stateless

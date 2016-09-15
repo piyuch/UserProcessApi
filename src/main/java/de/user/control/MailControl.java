@@ -16,7 +16,7 @@ import de.user.properties.PropertiesHandler;
 /**
  * Controler zum senden von E-Mails.
  *
- * @author claas.buedding
+ * @author piyush chand
  */
 @Stateless
 public class MailControl {

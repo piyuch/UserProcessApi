@@ -5,7 +5,7 @@ import de.user.api.BasicDataObject;
 /**
  * User participant in a contract API response object
  * 
- * @author hazem
+ * @author piyush chand
  *
  */
 public class UserReducedResponse extends BasicDataObject {

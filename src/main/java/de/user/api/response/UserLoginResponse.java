@@ -10,7 +10,7 @@ import de.user.api.BasicDataObject;
 /**
  * UserLogin API response object
  * 
- * @author hazem
+ * @author piyush chand
  *
  */
 public class UserLoginResponse extends BasicDataObject {

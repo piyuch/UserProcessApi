@@ -12,7 +12,7 @@ import de.user.model.UserEntity;
 /**
  * Control to access the User object
  * 
- * @author hazem
+ * @author piyush chand
  *
  */
 public class UserControl extends BasicCrudControl {

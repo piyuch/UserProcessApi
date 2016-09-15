@@ -11,7 +11,7 @@ import de.user.common.Validator;
 /**
  * UserRegister API request object
  * 
- * @author hazem
+ * @author piyush chand
  *
  */
 public class UserRegisterRequest extends BasicDataObject {

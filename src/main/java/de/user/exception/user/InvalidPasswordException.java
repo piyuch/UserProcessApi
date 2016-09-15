@@ -5,7 +5,7 @@ import de.user.exception.BusinessException;
 /**
  * Exception used when the password is invalid
  * 
- * @author hazem
+ * @author piyush
  *
  */
 public class InvalidPasswordException extends BusinessException {

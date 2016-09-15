@@ -5,7 +5,7 @@ import de.user.exception.BusinessException;
 /**
  * Exception used when the token is expired.
  * 
- * @author hazem
+ * @author piyush
  *
  */
 public class ExpiredTokenException extends BusinessException {

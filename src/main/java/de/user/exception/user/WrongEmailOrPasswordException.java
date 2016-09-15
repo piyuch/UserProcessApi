@@ -5,7 +5,7 @@ import de.user.exception.BusinessException;
 /**
  * Exception used when the email/password combination is wrong
  * 
- * @author hazem
+ * @author piyush
  *
  */
 public class WrongEmailOrPasswordException extends BusinessException {
